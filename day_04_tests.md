@@ -47,10 +47,13 @@ First example on the web page : https://adventofcode.com/2024/day/4
 ```
 ..X...
 .SAMX.
-.A....
-XMAS..
+.A..A.
+XMAS.S
 .X....
 ```
+
+- When I run `day_04 XMAS input_ex1`
+- Then output contains `Pattern Count = 4`
 
 ## Scenario example 2
 - Given the file `input_ex2`
