@@ -1,6 +1,12 @@
-This Markdown spec comply with https://github.com/LionelDraghi/bbt 0.0.6  
+This test file was build to check if [bbt](https://github.com/LionelDraghi/bbt) could be useful to help implement an [Advent of Code challenge](https://adventofcode.com/2024/day/4), part 1 only.  
+The answer is yes.  
+Creating small test cases of progressive difficulty was done in twenty seconds each, and adding the tests from the two provided examples was done in less than a minute, with a direct cut & paste of the expected results from the AoC web page.  
+Couldn't be easiest and less error prone.  
+
+The tested exe is called day_04 and should be in the current directory.  
 It should be run with  
-> bbt day_04_tests.md
+> bbt day_04_tests.md  
+It was run with version 0.0.6 of bbt.  
 
 ## Scenario 1
 - Given the file `input_1`
@@ -20,7 +26,7 @@ It should be run with
 - When I run `day_04 XMAS input_2`
 - Then output contains `Pattern Count = 1`
 
-## Scenario 2
+## Scenario 3
 - Given the file `input_3`
 ```
 ..XMASAMXMA...
@@ -29,7 +35,7 @@ It should be run with
 - When I run `day_04 XMAS input_3`
 - Then output contains `Pattern Count = 2`
 
-## Scenario 2
+## Scenario 4
 - Given the file `input_4`
 ```
 X2345678X
