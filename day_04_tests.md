@@ -5,7 +5,8 @@ Couldn't be easiest and less error prone.
 
 The tested exe is called day_04 and should be in the current directory.  
 It should be run with  
-> bbt day_04_tests.md  
+> bbt day_04_tests.md
+
 It was run with version 0.0.6 of bbt.  
 
 ## Scenario 1
